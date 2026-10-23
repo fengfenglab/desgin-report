@@ -42,6 +42,18 @@ desgin-report/
 └─ shots/           效果截图
 ```
 
+
+## 智能体 / Skill 安装
+
+本仓库根目录有 [`SKILL.md`](./SKILL.md)（skill 名：`design-report-web`），给 Cursor、WorkBuddy 等能读 skill 并跑本地脚本的智能体用。
+
+1. `git clone https://github.com/fengfenglab/desgin-report.git`
+2. 按平台把 `SKILL.md` 装进技能目录（Cursor：`.cursor/skills/design-report-web/SKILL.md`；WorkBuddy：用「添加技能」导入本文件或本仓）
+3. 复制 `brands/default` → `brands/<你的品牌>`，填写联系方式
+4. 对智能体说：「把这份 PPT/PDF 做成汇报网页」
+
+**ChatGPT / 纯网页 GPT** 不能直接执行本仓库脚本：可把 `SKILL.md` + 本节贴进自定义 GPT 当操作说明，在用户本机终端按「使用步骤」运行；要浏览器里一键生成需另做托管服务。
+
 ## 使用步骤
 一键运行：`./run.sh 方案.pptx 项目代号 [已导出的.pdf]`（依次执行下面第 1–3 步）。
 
