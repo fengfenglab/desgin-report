@@ -1,0 +1,402 @@
+{
+ "report_name": "设计方案汇报",
+ "report_name_en": "Design Proposal",
+ "protect": true,
+ "noindex": true,
+ "project": "demo-templates",
+ "title": "版式模板演示",
+ "title_en": "Template Demo",
+ "date": "",
+ "pages": [
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [
+    "这是一个独立的演示项目，用来展示「选品页」「策略页」「需求回应页」「效果图+细节卡」等版式。",
+    "页面上的家具、品牌、尺寸、问题、需求、说明文字都是虚构的示例数据，不会出现在真实客户汇报里。",
+    "图片为版式演示临时裁切的意向图。"
+   ],
+   "quote": "",
+   "items": [],
+   "images": [],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 1,
+   "template": "text",
+   "title": "版式模板 · 示例数据",
+   "title_en": "Templates · Example Data"
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [],
+   "images": [
+    {
+     "src": "media/f49a38d50ef7.jpg",
+     "w": 3200,
+     "h": 2028,
+     "caption": "",
+     "shape": "rect",
+     "box": [
+      0.07,
+      0.003,
+      0.878,
+      0.989
+     ]
+    }
+   ],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 2,
+   "template": "plan",
+   "title": "示例 · B1F 平面",
+   "title_en": "Example · B1F Plan",
+   "rooms": [
+    {
+     "n": 1,
+     "name": "下花园",
+     "x": 40,
+     "y": 25,
+     "page": null,
+     "check": true
+    },
+    {
+     "n": 2,
+     "name": "客厅",
+     "x": 44,
+     "y": 53,
+     "page": 3,
+     "check": true
+    },
+    {
+     "n": 3,
+     "name": "餐厅",
+     "x": 64,
+     "y": 52,
+     "page": 4,
+     "check": true
+    },
+    {
+     "n": 4,
+     "name": "西厨",
+     "x": 47,
+     "y": 84,
+     "page": null,
+     "check": true
+    },
+    {
+     "n": 5,
+     "name": "中厨",
+     "x": 37,
+     "y": 86,
+     "page": null,
+     "check": true
+    },
+    {
+     "n": 6,
+     "name": "门厅",
+     "x": 81,
+     "y": 79,
+     "page": null,
+     "check": true
+    }
+   ]
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [
+    {
+     "name": "模块沙发",
+     "name_en": "Modular Sofa",
+     "brand": "示例品牌 A",
+     "kind": "定制",
+     "size": "3200×1050×680",
+     "image": {
+      "src": "media/sofa.jpg",
+      "w": 843,
+      "h": 620
+     }
+    },
+    {
+     "name": "曲线沙发",
+     "name_en": "Curved Sofa",
+     "brand": "示例品牌 B",
+     "kind": "标准品",
+     "size": "2600×1000×720",
+     "pending": true,
+     "image": {
+      "src": "media/curve.jpg",
+      "w": 386,
+      "h": 283
+     }
+    },
+    {
+     "name": "休闲单椅",
+     "name_en": "Lounge Chair",
+     "brand": "示例品牌 C",
+     "kind": "标准品",
+     "size": "700×780×760",
+     "image": {
+      "src": "media/chair.jpg",
+      "w": 896,
+      "h": 923
+     }
+    },
+    {
+     "name": "落地灯",
+     "name_en": "Floor Lamp",
+     "brand": "示例品牌 D",
+     "kind": "标准品",
+     "size": "Ø400×1650",
+     "pending": true,
+     "image": {
+      "src": "media/lamp.jpg",
+      "w": 736,
+      "h": 1406
+     }
+    }
+   ],
+   "images": [],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 3,
+   "template": "selection",
+   "title": "客厅选品",
+   "title_en": "Living Room · Selection",
+   "room": "客厅",
+   "cols": 2,
+   "badge": "示例数据 · EXAMPLE DATA",
+   "locator": {
+    "plan": 2,
+    "room": "客厅"
+   }
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [
+    {
+     "name": "椭圆餐桌",
+     "name_en": "Oval Dining Table",
+     "brand": "示例品牌 E",
+     "kind": "定制",
+     "size": "2400×1100×750",
+     "note": "台面材质待和石材厂确认（示例）",
+     "pending": true,
+     "image": {
+      "src": "media/table.jpg",
+      "w": 852,
+      "h": 324
+     }
+    },
+    {
+     "name": "纸灯吊灯",
+     "name_en": "Paper Pendant",
+     "brand": "示例品牌 F",
+     "kind": "标准品",
+     "size": "Ø900×450",
+     "image": {
+      "src": "media/pendant.jpg",
+      "w": 546,
+      "h": 354
+     }
+    }
+   ],
+   "images": [],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 4,
+   "template": "selection",
+   "title": "餐厅选品",
+   "title_en": "Dining Room · Selection",
+   "room": "餐厅",
+   "cols": 1,
+   "badge": "示例数据 · EXAMPLE DATA",
+   "locator": {
+    "plan": 2,
+    "room": "餐厅"
+   }
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [],
+   "images": [],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 5,
+   "template": "strategy",
+   "title": "动线策略",
+   "title_en": "Circulation Strategy",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "problems": [
+    "从车库进门要穿过客厅才能到厨房",
+    "客厅白天采光不足，需要开灯",
+    "换季物品没有固定的收纳位置"
+   ],
+   "before": {
+    "image": {
+     "src": "media/f49a38d50ef7.jpg",
+     "w": 3200,
+     "h": 2028,
+     "caption": "",
+     "shape": "rect",
+     "box": [
+      0.07,
+      0.003,
+      0.878,
+      0.989
+     ]
+    },
+    "label": "原方案",
+    "label_en": "Original"
+   },
+   "keyword": "借光",
+   "keyword_en": "Borrowed Light",
+   "after": {
+    "image": {
+     "src": "media/f49a38d50ef7.jpg",
+     "w": 3200,
+     "h": 2028,
+     "caption": "",
+     "shape": "rect",
+     "box": [
+      0.07,
+      0.003,
+      0.878,
+      0.989
+     ]
+    },
+    "label": "调整方案",
+    "label_en": "Revised"
+   },
+   "locator": {
+    "plan": 2,
+    "room": "客厅"
+   }
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [],
+   "images": [
+    {
+     "src": "media/band.jpg",
+     "w": 1200,
+     "h": 480
+    }
+   ],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 6,
+   "template": "persona",
+   "title": "需求与回应",
+   "title_en": "Your Needs · Our Response",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "needs": [
+    {
+     "need": "老人住一层，希望不用爬楼也能晒到太阳",
+     "response": "老人房放在一层南侧，开落地窗，门口不设高差"
+    },
+    {
+     "need": "孩子周末常带同学回家，想要能闹的地方",
+     "response": "地下室做隔音多功能房，可收起变成影音室"
+    },
+    {
+     "need": "花园要好打理，不想每周请人修剪",
+     "response": "选四季常绿的低维护植物，并加自动灌溉"
+    },
+    {
+     "need": "来客多，想有一个独立的接待区",
+     "response": "门厅旁设茶室，与家庭生活区分开"
+    }
+   ]
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [],
+   "images": [
+    {
+     "src": "media/f14b4f72cfa0.jpg",
+     "w": 2129,
+     "h": 3200,
+     "caption": "",
+     "shape": "rect",
+     "box": [
+      0.256,
+      0.133,
+      0.241,
+      0.664
+     ]
+    },
+    {
+     "src": "media/detail.jpg",
+     "w": 915,
+     "h": 1056
+    }
+   ],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 7,
+   "template": "render",
+   "title": "西厨",
+   "title_en": "Western Kitchen",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "room": "西厨",
+   "caption": "原木柜体配浅色石材台面，铜色吊灯压低高度，让岛台更有围合感（示例）"
+  },
+  {
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "body": [],
+   "quote": "",
+   "items": [],
+   "images": [],
+   "bg": "",
+   "palette": false,
+   "hidden": false,
+   "note": "",
+   "slide": 8,
+   "template": "about",
+   "title": "谢谢观看",
+   "title_en": "Thank you."
+  }
+ ],
+ "brand": "default"
+}

@@ -1,0 +1,85 @@
+{
+ "_说明": "四套风格。fonts 里 role 决定字体映射到哪个 CSS 变量；所有字体都是 OFL 开源可商用，构建时只截取用到的字。accent 可在 config.json 的 theme_accent 覆盖。",
+ "zen": {
+  "name": "新中式禅意",
+  "name_en": "Zen",
+  "fonts": [
+   {
+    "family": "XF Serif",
+    "file": "noto-serif-sc",
+    "cjk": true
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant"
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant-i",
+    "italic": true
+   }
+  ],
+  "softlight": true
+ },
+ "wabi": {
+  "name": "侘寂木质",
+  "name_en": "Wabi-sabi",
+  "fonts": [
+   {
+    "family": "XF Serif",
+    "file": "noto-serif-sc",
+    "cjk": true
+   },
+   {
+    "family": "XF Caps",
+    "file": "marcellus"
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant"
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant-i",
+    "italic": true
+   }
+  ]
+ },
+ "mono": {
+  "name": "黑白极简",
+  "name_en": "Monochrome",
+  "fonts": [
+   {
+    "family": "XF Grotesk",
+    "file": "jost"
+   }
+  ],
+  "en_break": true
+ },
+ "french": {
+  "name": "法式杂志",
+  "name_en": "French Editorial",
+  "accent": "#26375f",
+  "fonts": [
+   {
+    "family": "XF Serif",
+    "file": "noto-serif-sc",
+    "cjk": true
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant"
+   },
+   {
+    "family": "XF Latin",
+    "file": "cormorant-i",
+    "italic": true
+   },
+   {
+    "family": "XF Grotesk",
+    "file": "jost"
+   }
+  ],
+  "mixed_title": true
+ }
+}

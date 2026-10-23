@@ -1,0 +1,114 @@
+/* 风格 4 · 法式杂志 french —— 奶油白 + 单一点缀色（默认藏青，可配置）、正斜体混排英文标题 + 细连接线、居中对称、拱形细线框 */
+:root{--bg:#f7f2e8;--panel:#efe8db;--accent:#26375f;--ink:var(--accent);--muted:#7b829a;--line:#d9d3c6;
+--muted:color-mix(in srgb,var(--accent) 58%,#f7f2e8);--line:color-mix(in srgb,var(--accent) 22%,#f7f2e8);
+--serif:"XF Latin","XF Serif","Songti SC",serif;--grot:"XF Grotesk",-apple-system,"PingFang SC",sans-serif}
+html{background:#f7f2e8}
+.t-french .top .brand{font-family:var(--grot);font-size:10px;letter-spacing:.38em}
+.t-french .top .brand b{display:none}
+.t-french .top .chap{font-family:var(--grot);letter-spacing:.3em;font-size:10px}
+.t-french .bot .num{font-family:var(--grot);font-size:11px;letter-spacing:.24em}
+.t-french .bot .tocbtn{font-family:var(--grot)}
+.t-french .mix b{font-family:var(--grot);font-weight:400;font-size:11px;letter-spacing:.36em;font-style:normal}
+.t-french .mix em{font-family:var(--serif);font-style:italic;font-size:27px;letter-spacing:.01em;line-height:1.1;white-space:nowrap}
+.t-french .mix i{background:var(--accent);opacity:.7}
+/* 封面 A · 更留白：字更小更疏，上下呼吸加大，主图略收；页眉/页脚与主图同轴水平居中 */
+.t-french .cf{background:var(--bg);color:var(--accent);padding:0;text-align:center}
+.t-french .cf:after{display:none}
+/* letter-spacing 会把字形视觉重心推左，用等量 padding-left 光学回中 */
+.t-french .frtop{position:absolute;left:0;right:0;top:110px;font-family:var(--grot);font-size:8px;letter-spacing:.52em;padding-left:.52em;text-align:center;box-sizing:border-box}
+.t-french .frtop span{display:block;font-family:var(--serif);font-size:9.5px;letter-spacing:.68em;padding-left:.68em;margin-top:12px;color:var(--muted);text-align:center;box-sizing:border-box}
+.t-french .frame{position:absolute;left:50%;top:200px;width:54%;aspect-ratio:4/5;transform:translateX(-50%);margin:0;overflow:visible}
+.t-french .frame img{width:100%;height:100%;object-fit:cover;display:block}
+.t-french .frame:after,.t-french .pp:after{content:"";position:absolute;inset:-11px;border:1px solid var(--accent);opacity:.75;pointer-events:none}
+.t-french .frtitle{position:absolute;left:50%;right:auto;width:54%;transform:translateX(-50%);top:calc(200px + 54vw * 1.25 + 56px);display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center;box-sizing:border-box}
+.t-french .frtitle b{font-family:var(--grot);font-weight:400;font-size:10px;letter-spacing:.72em;padding-left:.72em;text-align:center;box-sizing:border-box}
+.t-french .frtitle .row{display:flex;align-items:center;gap:16px;width:100%}
+.t-french .frtitle .row i{flex:1;height:1px;background:var(--accent);opacity:.75}
+.t-french .frtitle em{font-family:var(--serif);font-style:italic;font-size:26px;letter-spacing:.01em;line-height:1.15;white-space:nowrap}
+.t-french .cf .zh{position:absolute;left:0;right:0;bottom:calc(var(--bot) + 56px);font-family:var(--serif);font-size:11px;letter-spacing:.55em;padding-left:.55em;text-align:center;box-sizing:border-box}
+.t-french .frfoot{position:absolute;left:0;right:0;bottom:calc(var(--bot) + 28px);font-family:var(--serif);font-style:italic;font-size:11px;letter-spacing:.28em;padding-left:.28em;color:var(--muted);text-align:center;box-sizing:border-box}
+/* 内页：居中标题；主图大、居中、带细线框；小图不对称错落（全部直角） */
+.t-french .head{text-align:center;margin:14px 0 22px}
+.t-french .head .mix{justify-content:center;margin-top:10px}
+.t-french .head .mix i{flex:0 0 34px}
+.t-french .head h2{font-size:17px;letter-spacing:.5em;padding-left:.5em}
+.t-french .head .idx{float:none;display:block;font-family:var(--grot);font-size:10px;letter-spacing:.3em;margin:0 0 10px}
+.t-french .has-loc .head{padding:0 66px}
+.t-french .head .sub{letter-spacing:.3em}
+.t-french .ph{border-radius:0}
+/* 平面意向 C · 图更突出：拼贴更满、边框更醒目、头区收紧 */
+.t-french .pg.grid .head{margin:4px 0 8px}
+.t-french .pg.grid .head .idx{margin-bottom:4px;font-size:9px}
+.t-french .pg.grid .head h2{font-size:16px;letter-spacing:.36em;padding-left:.36em}
+.t-french .pg.grid .head .en.mix{margin-top:4px}
+.t-french .pg.grid .head .en.mix em{font-size:22px;color:var(--accent)}
+.t-french .grid .g{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-template-rows:none!important;grid-auto-rows:auto;gap:12px 8px;align-content:center;max-height:none}
+.t-french .grid .g .ph{grid-row:auto!important;grid-column:span 4!important;aspect-ratio:3/4;overflow:hidden}
+.t-french .grid .g .ph:after{content:"";position:absolute;inset:-5px;border:1.5px solid var(--accent);opacity:.85;pointer-events:none}
+.t-french .grid .g .ph:first-child{grid-column:2/span 10!important;aspect-ratio:4/3;margin-bottom:4px}
+.t-french .grid .g .ph:first-child:after{inset:-6px;border-width:1.5px;opacity:.9}
+.t-french .grid .g .ph:nth-child(2){grid-column:1/span 5!important;aspect-ratio:3/4}
+.t-french .grid .g .ph:nth-child(3){grid-column:6/span 4!important;aspect-ratio:1/1;align-self:end}
+.t-french .grid .g .ph:nth-child(4){grid-column:10/span 3!important;aspect-ratio:3/5;align-self:start;margin-top:10px}
+.t-french .grid .g .ph:nth-child(n+5){display:none}
+.t-french .grid .g .ph[data-rest]:before{content:attr(data-rest);position:absolute;z-index:2;right:0;bottom:0;background:var(--bg);color:var(--accent);font-family:var(--grot);font-size:10px;letter-spacing:.15em;padding:3px 6px}
+.t-french .grid.g2 .g .ph:nth-child(2){grid-column:6/span 6!important;aspect-ratio:4/3}
+.t-french .grid.g3 .g .ph:nth-child(2){grid-column:1/span 6!important}
+.t-french .grid.g3 .g .ph:nth-child(3){grid-column:8/span 5!important;aspect-ratio:3/4;align-self:end}
+.t-french .grid .g .ph img{position:relative;width:100%;height:100%;object-fit:contain;object-position:center;background:var(--bg)}
+.t-french .concept .node .ph{border-radius:0;aspect-ratio:3/4;overflow:visible}
+.t-french .concept .node .ph:after{content:"";position:absolute;inset:-6px;border:1px solid var(--accent);opacity:.6}
+.t-french .pal,.t-french .bars{display:none}
+.t-french .section{background:var(--panel)}
+.t-french .bot .chap,.t-french .bot .num{font-family:var(--grot);color:var(--accent)}
+.t-french .rdot,.t-french .rooms i{font-family:var(--grot)}
+.t-french .si .ph{background:#fffdf8;outline:1px solid var(--line);outline-offset:5px}
+
+/* 目录页头：配合 B 疏朗节奏 */
+.t-french .contents .head{margin:18px 0 20px}
+.t-french .contents .head h2{font-size:16px}
+.t-french .contents .head .en.mix em{font-size:24px}
+
+/* 关于我们 C · 标题/照片更突出 */
+.t-french .pg.studio:not(.designer) .head h2{font-size:24px;letter-spacing:.38em;padding-left:.38em}
+.t-french .pg.studio:not(.designer) .head .en.mix{margin-top:6px;gap:14px}
+.t-french .pg.studio:not(.designer) .head .en.mix b{font-size:13px;letter-spacing:.48em}
+.t-french .pg.studio:not(.designer) .head .en.mix em{font-size:32px;color:var(--accent)}
+.t-french .pg.studio:not(.designer) .head .en.mix i{flex:0 0 48px;opacity:.95;height:1.5px}
+
+/* 概念解读 B · 疏朗节奏 */
+.t-french .pg.concept .head{margin:18px 0 26px}
+.t-french .pg.concept .head h2{font-size:16px;letter-spacing:.52em;padding-left:.52em}
+.t-french .pg.concept .head .en{font-size:15px;margin-top:10px}
+
+/* 户型分析 C · 图/标注更突出 */
+.t-french .pg.issues .head{margin:4px 0 8px}
+.t-french .pg.issues .head h2{font-size:18px;letter-spacing:.32em;padding-left:.32em}
+.t-french .pg.issues .head .en{font-size:14px;color:var(--accent)}
+
+/* 设计目标 C · 更醒目 */
+.t-french .pg.goals .head{margin:10px 0 16px}
+.t-french .pg.goals .head h2{font-size:22px;letter-spacing:.36em;padding-left:.36em}
+.t-french .pg.goals .head .en.mix{margin-top:6px;gap:14px}
+.t-french .pg.goals .head .en.mix b{font-size:12px;letter-spacing:.42em}
+.t-french .pg.goals .head .en.mix em{font-size:30px;color:var(--accent)}
+.t-french .pg.goals .head .en.mix i{flex:0 0 42px;opacity:.95}
+
+/* 平面布局 C · 平面图更突出 */
+.t-french .pg.plan .head{margin:2px 0 6px}
+.t-french .pg.plan .head .idx{margin-bottom:2px;font-size:9px}
+.t-french .pg.plan .head h2{font-size:15px;letter-spacing:.32em;padding-left:.32em}
+.t-french .pg.plan .head .en.mix{margin-top:2px}
+.t-french .pg.plan .head .en.mix em{font-size:18px}
+
+/* 垂直交通 C · 图更突出 */
+.t-french .pg.vertical .head{margin:6px 0 8px}
+.t-french .pg.vertical .head .idx{margin-bottom:4px;font-size:9px}
+.t-french .pg.vertical .head h2{font-size:15px;letter-spacing:.36em;padding-left:.36em}
+.t-french .pg.vertical .head .en.mix{margin-top:4px}
+.t-french .pg.vertical .head .en.mix em{font-size:20px;color:var(--accent)}
+
+/* 结尾 C · 图/标题更突出 */
+.t-french .about h2{letter-spacing:.02em}
+.t-french .about .atext > .serif{color:var(--accent)}
+.t-french .about .back{border-color:var(--accent);color:var(--accent)}

@@ -1,0 +1,8 @@
+out/
+shots/
+venv/
+__pycache__/
+*.pyc
+work/*/render/
+.DS_Store
+.git/

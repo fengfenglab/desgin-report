@@ -1,0 +1,39 @@
+/* 风格 2 · 侘寂木质大地色 wabi —— 米白浅灰底 + 深咖色块、满版出血图片、三色条、字距拉开的衬线大写英文 */
+:root{--bg:#eeeae4;--panel:#e2dcd2;--ink:#2f2621;--muted:#8c7f72;--line:#d4cbbf;--accent:#7a5c46;--coffee:#45362c;
+--caps:"XF Caps","XF Latin","XF Serif",serif}
+.t-wabi .top .brand{font-family:var(--caps);letter-spacing:.3em;font-size:12px}
+.t-wabi .top .chap{letter-spacing:.3em}
+.t-wabi .head .en,.t-wabi .section .en{font-family:var(--caps);font-style:normal;text-transform:uppercase;letter-spacing:.22em}
+/* 封面：上图满版出血，下方深咖色块 */
+.t-wabi .cw{padding:0;background:var(--bg)}
+.t-wabi .cw:after{display:none}
+.t-wabi .wimg{position:absolute;left:0;right:0;top:0;height:57%;margin:0;overflow:hidden}
+.t-wabi .wimg img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
+.t-wabi .wimg:after{content:"";position:absolute;inset:0 0 auto;height:120px;background:linear-gradient(rgba(30,22,16,.35),transparent)}
+.t-wabi .wblock{position:absolute;left:0;right:0;top:57%;bottom:0;background:var(--coffee);color:#efe6da;padding:34px var(--pad) 0}
+.t-wabi .wblock .cap{color:rgba(239,230,218,.6);letter-spacing:.42em;font-size:9.5px}
+.t-wabi .wblock h1{font-family:var(--caps);font-weight:400;font-size:33px;letter-spacing:.2em;line-height:1.25;margin:14px 0 12px}
+.t-wabi .wblock .zh{font-family:var(--serif);font-size:15px;letter-spacing:.42em}
+.t-wabi .wblock .zh span{margin-left:14px;font-size:12px;letter-spacing:.32em;color:rgba(239,230,218,.65)}
+.t-wabi .bars{display:flex;gap:4px;margin-top:24px}
+.t-wabi .bars span{flex:1;height:7px;position:relative}
+.t-wabi .bars em{position:absolute;left:0;top:13px;font-style:normal;font-size:8.5px;letter-spacing:.18em;opacity:.6}
+.t-wabi .wblock .bars{width:72%}
+.t-wabi .wblock .studio{position:absolute;left:var(--pad);bottom:calc(var(--bot) + 26px + env(safe-area-inset-bottom));font-size:10px;letter-spacing:.34em;color:rgba(239,230,218,.72)}
+/* 内页：英文大写为主标题，图片左右出血，底部深咖色块承托三色条 */
+.t-wabi .grid .head,.t-wabi .material .head{display:flex;flex-direction:column}
+.t-wabi .grid .head .en,.t-wabi .material .head .en{order:-1;font-size:19px;color:var(--ink);letter-spacing:.2em;margin:0 0 6px;line-height:1.35}
+.t-wabi .grid .head h2,.t-wabi .material .head h2{font-size:14px;letter-spacing:.5em;color:var(--muted)}
+.t-wabi .grid .head .idx{position:absolute;right:var(--pad);top:calc(var(--top) + 12px);font-family:var(--caps)}
+.t-wabi .grid:before,.t-wabi .material:before{content:"";position:absolute;left:0;right:0;bottom:0;height:23%;background:var(--coffee)}
+.t-wabi .grid .inner,.t-wabi .material .inner{position:relative;z-index:1}
+.t-wabi .grid .g{margin:0 calc(var(--pad) * -1);gap:3px;max-height:calc(var(--H) - 250px)}
+.t-wabi .grid .pal,.t-wabi .material .pal{display:none}
+.t-wabi .grid .bars,.t-wabi .material .bars{display:flex;color:#efe6da;margin:22px 0 18px;width:70%}
+
+.t-wabi .bot .chap{font-family:var(--caps);letter-spacing:.24em}
+.t-wabi .grid.has-loc .loc,.t-wabi .material.has-loc .loc{top:calc(var(--top) + env(safe-area-inset-top) + 2px)}
+/* 深咖色块上的文字一律浅色：正文自带深咖底，保证不论落在哪里都清楚 */
+.t-wabi .material .body{background:var(--coffee);margin:12px calc(var(--pad) * -1) 0;padding:14px var(--pad) 16px;position:relative;z-index:1}
+.t-wabi .material .body p,.t-wabi .grid .gcap,.t-wabi .grid .body p{color:#f3ece2}
+.t-wabi .material .body p{font-size:12.5px;line-height:1.75}

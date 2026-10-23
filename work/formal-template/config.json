@@ -1,0 +1,1480 @@
+{
+ "project": "formal-template",
+ "brand": "default",
+ "title": "示例别墅",
+ "title_en": "Sample Villa",
+ "report_name": "概念方案汇报",
+ "report_name_en": "Concept Proposal",
+ "plan_mode": "concept",
+ "protect": true,
+ "noindex": true,
+ "floors": [
+  {
+   "id": "B1F",
+   "name": "花园层"
+  },
+  {
+   "id": "1F",
+   "name": "入户层"
+  },
+  {
+   "id": "2F",
+   "name": "孩子层"
+  },
+  {
+   "id": "3F",
+   "name": "主人层"
+  }
+ ],
+ "pages": [
+  {
+   "template": "cover",
+   "title": "示例别墅",
+   "title_en": "Sample Villa",
+   "subtitle": "CONCEPT PROPOSAL",
+   "bg": "media/cover.jpg",
+   "slide": 1,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "quote": "",
+   "note": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "studio",
+   "images": [
+    {
+     "src": "media/studio.jpg",
+     "w": 1500,
+     "h": 1000
+    }
+   ],
+   "badge": "示例数据 · EXAMPLE DATA",
+   "name": "设计师姓名",
+   "role": "创始人 / 设计总监",
+   "body": [
+    "这里放工作室和设计师介绍（示例）。正式项目里，这一页的内容写在 brand.json 的 about 里，所有项目共用。",
+    "两到三句话讲清楚：做什么类型的项目、设计主张、服务方式。"
+   ],
+   "items": [
+    "示例荣誉 · 行业协会会员",
+    "示例荣誉 · 设计奖项",
+    "示例经历 · 海外进修"
+   ],
+   "slide": 2,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "项目现场",
+   "title_en": "Project Site",
+   "eyebrow": "PART 01",
+   "quote": "先看清楚房子本来的样子。",
+   "images": [
+    {
+     "src": "media/site0.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 3,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "title": "现场记录",
+   "title_en": "Site Record",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "images": [
+    {
+     "src": "media/site0.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site1.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site2.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site3.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "body": [
+    "示例：毛坯现状照片，四层各选一两张。"
+   ],
+   "slide": 4,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "概念解读",
+   "title_en": "Concept",
+   "eyebrow": "PART 02",
+   "quote": "自然、舒适、松弛（示例关键词）",
+   "images": [
+    {
+     "src": "media/mood0.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 5,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "concept",
+   "title": "设计理念",
+   "title_en": "Design Concept",
+   "items": [
+    {
+     "title": "自然",
+     "title_en": "Nature",
+     "image": {
+      "src": "media/mood3.jpg",
+      "w": 1200,
+      "h": 1500
+     }
+    },
+    {
+     "title": "舒适",
+     "title_en": "Comfort",
+     "image": {
+      "src": "media/mood1.jpg",
+      "w": 1200,
+      "h": 1500
+     }
+    },
+    {
+     "title": "松弛",
+     "title_en": "Ease",
+     "image": {
+      "src": "media/mood2.jpg",
+      "w": 1200,
+      "h": 1500
+     }
+    }
+   ],
+   "slide": 6,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "title": "意向氛围",
+   "title_en": "Mood",
+   "images": [
+    {
+     "src": "media/mood0.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/mood1.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/mood2.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/mood3.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/mood4.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "palette": true,
+   "slide": 7,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false
+  },
+  {
+   "template": "section",
+   "title": "户型分析",
+   "title_en": "Structural Analysis",
+   "eyebrow": "PART 03",
+   "quote": "每一层先找问题，再谈方案。",
+   "images": [
+    {
+     "src": "media/site1.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 8,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "issues",
+   "floor": "B1F",
+   "title": "户型分析 · B1F",
+   "title_en": "Original Plan",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "images": [
+    {
+     "src": "media/raw-B1F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "points": [
+    {
+     "n": 1,
+     "x": 35.6,
+     "y": 35.2
+    },
+    {
+     "n": 2,
+     "x": 11.6,
+     "y": 51.8
+    },
+    {
+     "n": 3,
+     "x": 58.8,
+     "y": 46.9
+    }
+   ],
+   "problems": [
+    "地下室采光不足，白天也要开灯",
+    "下花园与室内没有直接连通",
+    "入户后缺少过渡和收纳"
+   ],
+   "photos": [
+    {
+     "src": "media/site0.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site1.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 9,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "issues",
+   "floor": "1F",
+   "title": "户型分析 · 1F",
+   "title_en": "Original Plan",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "images": [
+    {
+     "src": "media/raw-1F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "points": [
+    {
+     "n": 1,
+     "x": 65.6,
+     "y": 71.3
+    },
+    {
+     "n": 2,
+     "x": 64.4,
+     "y": 35.2
+    },
+    {
+     "n": 3,
+     "x": 38.1,
+     "y": 35.2
+    }
+   ],
+   "problems": [
+    "入户门厅进深不够，缺少换鞋收纳",
+    "老人房卫生间尺度偏小",
+    "家庭厅与花园互动少"
+   ],
+   "photos": [
+    {
+     "src": "media/site1.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site2.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 10,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "issues",
+   "floor": "2F",
+   "title": "户型分析 · 2F",
+   "title_en": "Original Plan",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "images": [
+    {
+     "src": "media/raw-2F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "points": [
+    {
+     "n": 1,
+     "x": 59.4,
+     "y": 35.2
+    },
+    {
+     "n": 2,
+     "x": 36.2,
+     "y": 35.2
+    }
+   ],
+   "problems": [
+    "过厅面积大但利用率低",
+    "两间卧室尺度偏小"
+   ],
+   "photos": [
+    {
+     "src": "media/site2.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site3.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 11,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "issues",
+   "floor": "3F",
+   "title": "户型分析 · 3F",
+   "title_en": "Original Plan",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "images": [
+    {
+     "src": "media/raw-3F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "points": [
+    {
+     "n": 1,
+     "x": 75.0,
+     "y": 35.2
+    },
+    {
+     "n": 2,
+     "x": 39.4,
+     "y": 35.2
+    }
+   ],
+   "problems": [
+    "起居空间层高偏高，缺少包裹感",
+    "主卧面积相对较小"
+   ],
+   "photos": [
+    {
+     "src": "media/site3.jpg",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "src": "media/site0.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 12,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "设计目标",
+   "title_en": "Design Objective",
+   "eyebrow": "PART 04",
+   "quote": "一层一个目标。",
+   "images": [
+    {
+     "src": "media/mood4.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 13,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "goals",
+   "title": "设计目标",
+   "title_en": "Objectives by Floor",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "goals": [
+    {
+     "floor": "3F",
+     "title": "主人套房",
+     "text": "示例：卧室、起居、书房连成一体，互不打扰"
+    },
+    {
+     "floor": "2F",
+     "title": "孩子的成长空间",
+     "text": "示例：卧室 + 学习区，留出未来调整的余地"
+    },
+    {
+     "floor": "1F",
+     "title": "长辈与家庭生活",
+     "text": "示例：老人房无高差，家庭厅面向上花园"
+    },
+    {
+     "floor": "B1F",
+     "title": "聚会与接待",
+     "text": "示例：围绕下花园，打造会客、品茶、影音的集合空间"
+    }
+   ],
+   "slide": 14,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "平面布局",
+   "title_en": "Layout",
+   "eyebrow": "PART 05",
+   "quote": "按楼层，从下往上看。",
+   "images": [
+    {
+     "src": "media/mood1.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 15,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "plan",
+   "floor": "B1F",
+   "title": "平面布局 · B1F",
+   "title_en": "Floor Plan",
+   "images": [
+    {
+     "src": "media/plan-B1F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "rooms": [
+    {
+     "n": 1,
+     "name": "下花园",
+     "x": 11.6,
+     "y": 51.8,
+     "page": null
+    },
+    {
+     "n": 2,
+     "name": "客厅",
+     "x": 35.6,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 3,
+     "name": "茶室",
+     "x": 58.8,
+     "y": 27.3,
+     "page": null
+    },
+    {
+     "n": 4,
+     "name": "餐厅",
+     "x": 81.2,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 5,
+     "name": "西厨",
+     "x": 58.8,
+     "y": 46.9,
+     "page": null
+    },
+    {
+     "n": 6,
+     "name": "影音室",
+     "x": 33.1,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 7,
+     "name": "中厨",
+     "x": 65.6,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 8,
+     "name": "设备间",
+     "x": 84.4,
+     "y": 71.3,
+     "page": null
+    }
+   ],
+   "slide": 16,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "swipe",
+   "floor": "B1F",
+   "title": "B1F 平面分析",
+   "title_en": "Analysis",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "slides": [
+    {
+     "label": "功能分区",
+     "image": {
+      "src": "media/zone-B1F.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "legend": [
+      {
+       "color": "rgb(214, 196, 160)",
+       "label": "公共区"
+      },
+      {
+       "color": "rgb(176, 190, 206)",
+       "label": "私密区"
+      },
+      {
+       "color": "rgb(206, 178, 168)",
+       "label": "服务区"
+      },
+      {
+       "color": "rgb(196, 206, 180)",
+       "label": "交通 / 门厅"
+      }
+     ],
+     "caption": "示例：公共、私密、服务三类空间分开，交通集中在中部。"
+    },
+    {
+     "label": "动线",
+     "image": {
+      "src": "media/flow-B1F.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "legend": [
+      {
+       "color": "#b04834",
+       "label": "家人动线"
+      },
+      {
+       "color": "#3e608c",
+       "label": "访客 / 家政"
+      }
+     ],
+     "notes": [
+      "车库入户直达门厅",
+      "家政动线不穿过会客区"
+     ]
+    },
+    {
+     "label": "视线",
+     "image": {
+      "src": "media/view-B1F.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "caption": "示例：入户第一眼看到下花园，客厅与餐厅视线互通。"
+    },
+    {
+     "label": "收纳",
+     "image": {
+      "src": "media/store-B1F.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "caption": "示例：黄色为新增柜体，集中在入户、厨房和走道。"
+    }
+   ],
+   "slide": 17,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "plan",
+   "floor": "1F",
+   "title": "平面布局 · 1F",
+   "title_en": "Floor Plan",
+   "images": [
+    {
+     "src": "media/plan-1F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "rooms": [
+    {
+     "n": 1,
+     "name": "上花园",
+     "x": 11.6,
+     "y": 51.8,
+     "page": null
+    },
+    {
+     "n": 2,
+     "name": "家庭厅",
+     "x": 38.1,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 3,
+     "name": "老人房",
+     "x": 64.4,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 4,
+     "name": "阳台",
+     "x": 84.4,
+     "y": 27.3,
+     "page": null
+    },
+    {
+     "n": 5,
+     "name": "次卫",
+     "x": 84.4,
+     "y": 46.9,
+     "page": null
+    },
+    {
+     "n": 6,
+     "name": "亲子区",
+     "x": 33.1,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 7,
+     "name": "门厅",
+     "x": 65.6,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 8,
+     "name": "衣帽间",
+     "x": 84.4,
+     "y": 71.3,
+     "page": null
+    }
+   ],
+   "slide": 18,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "plan",
+   "floor": "2F",
+   "title": "平面布局 · 2F",
+   "title_en": "Floor Plan",
+   "images": [
+    {
+     "src": "media/plan-2F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "rooms": [
+    {
+     "n": 1,
+     "name": "儿子房",
+     "x": 36.2,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 2,
+     "name": "学习区",
+     "x": 59.4,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 3,
+     "name": "次卧",
+     "x": 81.2,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 4,
+     "name": "次卫",
+     "x": 33.1,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 5,
+     "name": "衣帽间",
+     "x": 65.6,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 6,
+     "name": "家政间",
+     "x": 84.4,
+     "y": 71.3,
+     "page": null
+    }
+   ],
+   "slide": 19,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "swipe",
+   "floor": "2F",
+   "title": "2F 方案对比",
+   "title_en": "Schemes",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "slides": [
+    {
+     "label": "方案一",
+     "image": {
+      "src": "media/plan-2F.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "caption": "示例：两间卧室 + 独立学习区。"
+    },
+    {
+     "label": "方案二",
+     "image": {
+      "src": "media/plan-2F-s2.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "caption": "示例：学习区并入儿子房，卧室更宽敞。"
+    },
+    {
+     "label": "方案三",
+     "image": {
+      "src": "media/plan-2F-s3.png",
+      "w": 1600,
+      "h": 1024
+     },
+     "caption": "示例：次卧改为多功能房，可兼作客房。"
+    }
+   ],
+   "slide": 20,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "plan",
+   "floor": "3F",
+   "title": "平面布局 · 3F",
+   "title_en": "Floor Plan",
+   "images": [
+    {
+     "src": "media/plan-3F.png",
+     "w": 1600,
+     "h": 1024
+    }
+   ],
+   "rooms": [
+    {
+     "n": 1,
+     "name": "主卧",
+     "x": 39.4,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 2,
+     "name": "起居室",
+     "x": 75.0,
+     "y": 35.2,
+     "page": null
+    },
+    {
+     "n": 3,
+     "name": "书房",
+     "x": 33.1,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 4,
+     "name": "主卫",
+     "x": 65.6,
+     "y": 71.3,
+     "page": null
+    },
+    {
+     "n": 5,
+     "name": "衣帽间",
+     "x": 84.4,
+     "y": 71.3,
+     "page": null
+    }
+   ],
+   "slide": 21,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "垂直交通",
+   "title_en": "Vertical Circulation",
+   "eyebrow": "PART 06",
+   "quote": "楼梯、电梯、挑空，把四层串起来。",
+   "images": [
+    {
+     "src": "media/mood2.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 22,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "vertical",
+   "title": "垂直交通",
+   "title_en": "Vertical Circulation",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "floors": [
+    {
+     "id": "3F",
+     "name": "主人层",
+     "level": "+9.60"
+    },
+    {
+     "id": "2F",
+     "name": "孩子层",
+     "level": "+6.30"
+    },
+    {
+     "id": "1F",
+     "name": "入户层",
+     "level": "±0.00"
+    },
+    {
+     "id": "B1F",
+     "name": "花园层",
+     "level": "-3.30"
+    }
+   ],
+   "cores": [
+    {
+     "n": 1,
+     "name": "楼梯",
+     "type": "stair",
+     "x": 34,
+     "w": 13,
+     "from": "B1F",
+     "to": "3F",
+     "note": "示例：保留原楼梯位置，踏步改为木饰面"
+    },
+    {
+     "n": 2,
+     "name": "电梯",
+     "type": "lift",
+     "x": 50,
+     "w": 9,
+     "from": "B1F",
+     "to": "3F",
+     "note": "示例：新增家用电梯，四层直达，方便长辈"
+    },
+    {
+     "n": 3,
+     "name": "挑空",
+     "type": "void",
+     "x": 6,
+     "w": 22,
+     "from": "1F",
+     "to": "2F",
+     "note": "示例：家庭厅上方挑空，两层视线相通"
+    },
+    {
+     "n": 4,
+     "name": "采光井",
+     "type": "light",
+     "x": 72,
+     "w": 12,
+     "from": "B1F",
+     "to": "1F",
+     "note": "示例：把自然光引到地下室"
+    }
+   ],
+   "slide": 23,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "swipe",
+   "title": "剖面",
+   "title_en": "Sections",
+   "badge": "示例数据 · EXAMPLE DATA",
+   "slides": [
+    {
+     "label": "剖面 A-A",
+     "image": {
+      "src": "media/section-A.png",
+      "w": 1600,
+      "h": 1100
+     },
+     "caption": "示例：挑空与上下花园的关系。"
+    },
+    {
+     "label": "剖面 B-B",
+     "image": {
+      "src": "media/section-B.png",
+      "w": 1600,
+      "h": 1100
+     },
+     "caption": "示例：采光井把光带到 B1F。"
+    }
+   ],
+   "slide": 24,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "平面意向",
+   "title_en": "Spatial Mood",
+   "eyebrow": "PART 07",
+   "quote": "每个房间的样子。",
+   "images": [
+    {
+     "src": "media/mood3.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 25,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "floor": "B1F",
+   "room": "客厅",
+   "title": "客厅",
+   "title_en": "Living Room",
+   "images": [
+    {
+     "src": "media/liv0.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/liv1.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/liv2.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 26,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "floor": "1F",
+   "room": "老人房",
+   "title": "老人房",
+   "title_en": "Elder Room",
+   "images": [
+    {
+     "src": "media/old0.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/old1.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/old2.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 27,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "floor": "3F",
+   "room": "主卧",
+   "title": "主卧",
+   "title_en": "Master Bedroom",
+   "images": [
+    {
+     "src": "media/bed0.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/bed1.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/bed2.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 28,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "grid",
+   "room": [
+    "上花园",
+    "下花园"
+   ],
+   "title": "花园意向",
+   "title_en": "Garden Mood",
+   "images": [
+    {
+     "src": "media/gar0.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/gar1.jpg",
+     "w": 1200,
+     "h": 1500
+    },
+    {
+     "src": "media/gar2.jpg",
+     "w": 1200,
+     "h": 1500
+    }
+   ],
+   "slide": 29,
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "section",
+   "title": "专项",
+   "title_en": "Special Systems",
+   "eyebrow": "PART 08",
+   "quote": "看不见的部分，决定住得好不好。",
+   "images": [
+    {
+     "src": "media/plant.jpg",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "slide": 30,
+   "chapter": "",
+   "subtitle": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "material",
+   "title": "绿植专项",
+   "title_en": "Planting",
+   "items": [
+    {
+     "title": "示例：四季常绿为底，每季有花",
+     "text": "示例：保留原有大树",
+     "images": [
+      {
+       "src": "media/plant.jpg",
+       "w": 1200,
+       "h": 900
+      }
+     ]
+    }
+   ],
+   "slide": 31,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "material",
+   "title": "灯光专项",
+   "title_en": "Lighting",
+   "items": [
+    {
+     "title": "示例：低位点光，不直射眼睛",
+     "text": "示例：分回路，场景可调",
+     "images": [
+      {
+       "src": "media/light.jpg",
+       "w": 1200,
+       "h": 900
+      }
+     ]
+    }
+   ],
+   "slide": 32,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "material",
+   "title": "防水排水专项",
+   "title_en": "Waterproofing & Drainage",
+   "items": [
+    {
+     "title": "示例：成品排水沟，可开启检修",
+     "text": "示例：花池、鱼池单独防水",
+     "images": [
+      {
+       "src": "media/drain.jpg",
+       "w": 1200,
+       "h": 900
+      }
+     ]
+    }
+   ],
+   "slide": 33,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "material",
+   "title": "智能化专项",
+   "title_en": "Smart Home",
+   "items": [
+    {
+     "title": "示例：灯光 / 灌溉 / 安防统一管理",
+     "text": "示例：按需求定制",
+     "images": [
+      {
+       "src": "media/smart.jpg",
+       "w": 1200,
+       "h": 900
+      }
+     ]
+    }
+   ],
+   "slide": 34,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "hidden": false,
+   "palette": false
+  },
+  {
+   "template": "about",
+   "title": "谢谢观看",
+   "title_en": "Thank you.",
+   "slide": 35,
+   "images": [],
+   "chapter": "",
+   "eyebrow": "",
+   "subtitle": "",
+   "quote": "",
+   "note": "",
+   "bg": "",
+   "body": [],
+   "items": [],
+   "hidden": false,
+   "palette": false
+  }
+ ]
+}

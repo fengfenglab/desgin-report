@@ -1,0 +1,54 @@
+/* 风格 1 · 新中式禅意 zen —— 暖灰细灰泥肌理 + 极淡的模糊窗光、竖排宋体标题 + 细竖线、小圆点章节导航、竖条图片、朱砂点缀 */
+:root{--bg:#e7e1d7;--panel:#ddd5c9;--ink:#42372e;--muted:#8b7e71;--line:#c9bdae;--accent:#b4472e;--pad:26px;
+--serif:"XF Latin","XF Serif","Songti SC","STSong",serif}
+html{background:#e7e1d7 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='900'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.006 .009' numOctaves='3' seed='4'/%3E%3CfeColorMatrix values='0 0 0 0 .4 0 0 0 0 .35 0 0 0 0 .3 0 0 0 .16 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)'/%3E%3C/svg%3E")}
+body.t-zen{background:transparent}
+.t-zen:before{content:"";position:fixed;inset:0;z-index:-1;background:url(softlight.webp) center/100% 100% no-repeat;pointer-events:none}
+.t-zen:after{content:"";position:fixed;inset:0;z-index:-1;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.55' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .2 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.26;mix-blend-mode:multiply;pointer-events:none}
+.t-zen .section,.t-zen .about{background:rgba(221,213,201,.55)}
+.t-zen .top .brand{letter-spacing:.32em;font-size:12px}
+.t-zen .top .brand b{display:none}
+.t-zen .top .chap{letter-spacing:.4em;font-family:var(--serif)}
+.t-zen .bot .num{font-size:13px}
+/* 小圆点章节导航 */
+.t-zen .dots{display:flex;flex-direction:column;gap:13px;position:fixed;left:9px;top:50%;transform:translateY(-50%);z-index:21}
+.t-zen .dots button{width:5px;height:5px;border-radius:50%;border:1px solid var(--ink);background:none;padding:0;opacity:.55;cursor:pointer}
+.t-zen .dots button.on{background:var(--ink);opacity:1;transform:scale(1.25)}
+.t-zen .dots span{display:none}
+.t-zen.on-cover .dots{opacity:0}
+/* 封面 */
+.t-zen .cz{background:transparent;color:var(--ink);padding:0}
+.t-zen .cz:after{display:none}
+.t-zen .zstrip{position:absolute;left:var(--pad);top:116px;width:30%;bottom:178px;overflow:hidden;margin:0}
+.t-zen .zstrip img{width:100%;height:100%;object-fit:cover;object-position:62% 50%;filter:saturate(.72) sepia(.12)}
+.t-zen .ztitle{position:absolute;right:30px;top:112px;writing-mode:vertical-rl;display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.t-zen .ztitle h1{font-family:var(--serif);font-weight:400;font-size:56px;letter-spacing:.42em;line-height:1}
+.t-zen .ztitle .vr{display:block;inline-size:210px;block-size:1px;background:var(--ink);opacity:.45;margin-top:8px}
+.t-zen .ztitle .zsub{font-family:var(--serif);font-size:15px;letter-spacing:.62em;margin-top:8px}
+.t-zen .ztitle .zen-en{font-family:var(--serif);font-style:italic;font-size:13px;letter-spacing:.12em;color:var(--muted);margin-top:8px}
+.t-zen .seal{display:flex;position:absolute;right:38px;top:448px;width:24px;height:24px;background:var(--accent);color:#f4ece2;font-family:var(--serif);font-size:9px;line-height:1;align-items:center;justify-content:center;writing-mode:vertical-rl;letter-spacing:.05em;border-radius:2px}
+.t-zen .zfoot{position:absolute;left:var(--pad);right:var(--pad);bottom:104px;display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;font-size:10px;letter-spacing:.36em;color:var(--muted)}
+.t-zen .cz .hint{color:var(--muted);bottom:62px}
+/* 内页标题：竖排 + 细竖线 */
+.t-zen .grid .inner,.t-zen .material .inner{flex-direction:row-reverse;gap:14px}
+.t-zen .grid .head{writing-mode:vertical-rl;margin:4px 0 0;padding-right:0;display:flex;flex-direction:column;gap:8px;align-self:flex-start;position:relative}
+.t-zen .grid .head:after{content:"";display:block;inline-size:150px;block-size:1px;background:var(--ink);opacity:.4;margin:0}
+.t-zen .grid .head h2{font-size:24px;letter-spacing:.4em;line-height:1}
+.t-zen .grid .head .en{font-size:13px;letter-spacing:.1em;margin:0}
+.t-zen .grid .head .idx{float:none;margin:0;color:var(--accent);font-size:11px;letter-spacing:.2em}
+/* 竖条图片并排 */
+.t-zen .grid .g{display:flex;gap:7px;max-height:calc(var(--H) - 196px)}
+.t-zen .grid .g .ph{flex:1 1 0;min-width:0}
+.t-zen .grid .g .ph:nth-child(even){margin-top:44px}
+.t-zen .grid .g .ph:nth-child(odd){margin-bottom:44px}
+.t-zen .grid .g .ph img{filter:saturate(.85)}
+.t-zen.protect .grid .g.many{flex-wrap:wrap}
+.t-zen .pal{justify-content:flex-start;gap:8px;margin-top:16px}
+.t-zen .pal span{width:9px;height:9px}
+.t-zen .pal em{font-family:var(--serif);letter-spacing:.4em}
+.t-zen .pal em:before{content:"";display:inline-block;width:5px;height:5px;background:var(--accent);margin-right:8px;vertical-align:1px}
+
+.t-zen .bot .chap{font-family:var(--serif);letter-spacing:.3em}
+.t-zen .grid.has-loc .loc,.t-zen .material.has-loc .loc{top:auto;bottom:calc(var(--bot) + 20px + env(safe-area-inset-bottom))}
+.t-zen .grid.has-loc .head{padding-right:0}
+.t-zen .loc{background:rgba(240,235,227,.75)}

@@ -1,0 +1,28 @@
+{
+  "_说明": "中性默认品牌（开源版示例）。字段含义见 README「品牌配置 brand.json」。",
+  "studio": "设计工作室",
+  "studio_en": "Design Studio",
+  "aliases": [],
+  "contact": {
+    "phone": "",
+    "wechat": "",
+    "address": "",
+    "note": ""
+  },
+  "qr": "",
+  "logo": "",
+  "seal": "",
+  "footer": "",
+  "theme": "wabi",
+  "accent": "",
+  "theme_vars": {},
+  "fonts": {},
+  "about": {
+    "title": "",
+    "title_en": "",
+    "name": "",
+    "role": "",
+    "body": [],
+    "items": []
+  }
+}
